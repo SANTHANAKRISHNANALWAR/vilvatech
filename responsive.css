@@ -1,0 +1,410 @@
+@media (width <=576px) {
+
+    /* html{
+        font-size: 45%;
+    } */
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid141 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid13, .contactsBody1, .contactsBody2{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .navLinks {
+        display: none;
+    }
+
+    .navicons {
+        display: none;
+    }
+
+    .navBody {
+        position: relative;
+    }
+
+    .chkbtn {
+        display: flex;
+        position: absolute;
+        font-size: 2.5rem;
+        right: 2.5rem;
+        align-self: center;
+        cursor: pointer;
+    }
+
+    .respnavBar {
+        background-color: #ffffff;
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+        height: 100vh;
+        width: 70%;
+        padding: 3rem;
+        transition: 1s;
+    }
+
+    .respnavImage {
+        padding: 2rem 0;
+    }
+
+    .respnavImage img {
+        height: 3rem;
+    }
+
+    .respnavLinks {
+        display: flex;
+        flex-direction: column;
+        line-height: 3;
+    }
+
+    .respnavLinks li a {
+        color: #07032abb;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .chkcrsbtn {
+        position: absolute;
+        display: flex;
+        font-size: 2.5rem;
+        right: 2.5rem;
+    }
+
+    #chkbox:checked~.respnavBar {
+        display: flex;
+    }
+
+    .projectsLinks {
+        gap: 3rem;
+    }
+
+    .contactsPhone, .contactsMail, .contactsaddress{
+        margin-bottom: 1rem;
+    }
+
+    .addressicon svg{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .navicons1 {
+        /* background-color: mediumorchid; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navicons1 li {
+        /* background-color: #000000; */
+        /* background-color: #22b847;
+        border-radius: 50%;  */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navicons1 i {
+        color: #ffffff;
+        padding: 0.7rem;
+        border-radius: 50%;
+        font-size: 1.5rem;
+    }
+
+    .fa-whatsapp {
+        background-color: #22b847;
+    }
+
+    .fa-facebook {
+        background-color: #342899;
+    }
+
+    .fa-instagram {
+        background-color: #000000;
+    }
+
+    .fa-linkedin {
+        background-color: #4576c0;
+    }
+
+    .fa-youtube {
+        background-color: #df0404;
+    }
+
+    /* .subsBody{
+        min-width: 38rem;
+    }
+
+    .align{
+        max-width: 300px;
+        margin: auto;
+        padding: 0.5rem;
+    }
+
+    .minpad{
+        padding: 1rem;
+    } */
+
+}
+
+@media (width > 576px) and (width <=850px) {
+
+    /* html{
+        font-size: 45%;
+    } */
+
+    .grid4,
+    .grid5 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid13, .grid141, .contactsBody1, .contactsBody2{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .navLinks {
+        display: none;
+    }
+
+    .navicons {
+        display: none;
+    }
+
+    .navBody {
+        position: relative;
+    }
+
+    .chkbtn {
+        display: flex;
+        position: absolute;
+        font-size: 2.5rem;
+        right: 2.5rem;
+        align-self: center;
+        cursor: pointer;
+    }
+
+    .respnavBar {
+        background-color: #ffffff;
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+        height: 100vh;
+        width: 70%;
+        padding: 3rem;
+        transition: 1s;
+    }
+
+    .respnavImage {
+        padding: 2rem 0;
+    }
+
+    .respnavImage img {
+        height: 3rem;
+    }
+
+    .respnavLinks {
+        display: flex;
+        flex-direction: column;
+        line-height: 3;
+    }
+
+    .respnavLinks li a {
+        color: #07032abb;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .chkcrsbtn {
+        position: absolute;
+        display: flex;
+        font-size: 2.5rem;
+        right: 2.5rem;
+    }
+
+    #chkbox:checked~.respnavBar {
+        display: flex;
+    }
+
+    .projectsLinks {
+        gap: 3rem;
+    }
+
+    .projectBody2{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contactsPhone, .contactsMail, .contactsaddress{
+        margin-bottom: 1rem;
+    }
+
+    .addressicon svg{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .navicons1 {
+        /* background-color: mediumorchid; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navicons1 li {
+        /* background-color: #000000; */
+        /* background-color: #22b847;
+        border-radius: 50%;  */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navicons1 i {
+        color: #ffffff;
+        padding: 0.7rem;
+        border-radius: 50%;
+        font-size: 1.5rem;
+    }
+
+    .fa-whatsapp {
+        background-color: #22b847;
+    }
+
+    .fa-facebook {
+        background-color: #342899;
+    }
+
+    .fa-instagram {
+        background-color: #000000;
+    }
+
+    .fa-linkedin {
+        background-color: #4576c0;
+    }
+
+    .fa-youtube {
+        background-color: #df0404;
+    }
+
+    /* .subsBody{
+        min-width: 38rem;
+    }
+
+    .align{
+        max-width: 300px;
+        margin: auto;
+        padding: 0.5rem;
+    }
+
+    .minpad{
+        padding: 1rem;
+    } */
+
+}
+
+@media (width >=850px) and (width <=1024px) {
+
+    /* html {
+        font-size: 55%;
+    } */
+
+    .grid4,
+    .grid5 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid13, .contactsBody1, .contactsBody2{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .projectsLinks {
+        gap: 3rem;
+    }
+
+    .projectBody2{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* .subsBody{
+        min-width: 38rem;
+    }
+
+    .align{
+        max-width: 300px;
+        margin: auto;
+        padding: 0.5rem;
+    }
+
+    .minpad{
+        padding: 1rem;
+    } */
+
+    .navBody {
+        grid-template-columns: 1.5fr 5fr;
+    }
+
+    .navicons {
+        display: none;
+    }
+
+    .contactsPhone, .contactsMail, .contactsaddress{
+        margin-bottom: 1rem;
+    }
+
+    .addressicon svg{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .navicons1 {
+        /* background-color: mediumorchid; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navicons1 li {
+        /* background-color: #000000; */
+        /* background-color: #22b847;
+        border-radius: 50%;  */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navicons1 i {
+        color: #ffffff;
+        padding: 0.7rem;
+        border-radius: 50%;
+        font-size: 1.5rem;
+    }
+
+    .fa-whatsapp {
+        background-color: #22b847;
+    }
+
+    .fa-facebook {
+        background-color: #342899;
+    }
+
+    .fa-instagram {
+        background-color: #000000;
+    }
+
+    .fa-linkedin {
+        background-color: #4576c0;
+    }
+
+    .fa-youtube {
+        background-color: #df0404;
+    }
+
+}
